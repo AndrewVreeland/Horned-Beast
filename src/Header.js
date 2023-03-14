@@ -1,9 +1,8 @@
 import React from 'react';
-import App from './App';
 
 class Header extends React.Component{
   render(){
-    return <h1>Hello people!</h1>
+    return <h1>Beasts With Horns</h1>
   }
 }
 
