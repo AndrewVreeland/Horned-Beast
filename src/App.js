@@ -4,6 +4,9 @@
 
 import React from 'react';
 import Header from './Header';
+import Footer from './Footer'
+import Main from './Main';
+import beast from './HornedBeast';
 
 // 2nd CREATE CLASS - will always have a render method 
 
@@ -13,7 +16,11 @@ class App extends React.Component {
     return (
       <>
     <Header />
-    <main />
+    <Main />
+    <beast/>
+    <beast/>
+    <beast/>
+    <Footer/>
     </>
     )
   }
