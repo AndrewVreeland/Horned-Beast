@@ -1,16 +1,16 @@
 import React from 'react'
 
 
-class beast extends React.Component{
+class HornedBeast extends React.Component{
   render(){
     return(
       <article>
         <h2>Hello {this.props.title}</h2>
-        <p>{this.props.description}</p>
-        <img img_url='' title='' alt=''></img>
+        <img src={this.props.img_url} alt={this.props.description} title={this.props.title}></img>
+        
       </article>
     )
   }
 }
 
-export default beast
+export default HornedBeast
