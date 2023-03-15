@@ -1,3 +1,49 @@
+# Number and name of feature: DISPLAY IMAGES
+
+Estimate of time needed to complete: an hour
+
+Start time: 5:08
+
+Finish time: 5:58
+
+## Number and name of feature:  Allow Users to Favorite Individual Beasts
+
+Estimate of time needed to complete: an hour
+
+Start time: 7:00
+
+Finish time: 7:40
+
+## Number and name of feature: Bootstrap
+
+Estimate of time needed to complete: an hour
+
+Start time: 7:00
+
+Finish time: 7:40
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
