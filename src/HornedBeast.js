@@ -26,18 +26,11 @@ class HornedBeast extends React.Component {
   // METHOD TO UPDATE STATE FOR EACH PERSON TO TRAVE VOTES 
 
   handleVote = () => {
-    // react method called this.setState() -> taskes in object and rebuild state obj
+   
     this.setState({
       votes: this.state.votes + 1
     })
   }
-
-
-  // HELPER FUNCTIONS
-  // handleNameClick = () => {
-  //   this.props.handleOpenModal(this.props.title)
-  // }
-  //
 
   render() {
     return (
@@ -52,7 +45,6 @@ class HornedBeast extends React.Component {
               src={this.props.image_url}
               alt={this.props.description}
             />
-            {/* <p>{this.props.description}</p> */}
             <p>{this.state.votes}❤️Favorites</p>
           </Card.Text>
           <div id='buttons'>
