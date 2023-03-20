@@ -4,14 +4,6 @@ import Modal from 'react-bootstrap/Modal'
 import './SelectedBeast.css'
 class SelectedBeast extends React.Component {
   render() {
-    console.log('hello',)
-
-  
-
-
-
-
-
     return <Modal 
       show={this.props.showModal}
       onHide={this.props.handleCloseModal}
