@@ -1,4 +1,5 @@
-# Number and name of feature: DISPLAY IMAGES
+# Lab1
+## Number and name of feature: DISPLAY IMAGE
 
 Estimate of time needed to complete: an hour
 
@@ -6,6 +7,7 @@ Start time: 5:08
 
 Finish time: 5:58
 
+## Lab 2
 ## Number and name of feature:  Allow Users to Favorite Individual Beasts
 
 Estimate of time needed to complete: an hour
@@ -14,13 +16,23 @@ Start time: 7:00
 
 Finish time: 7:40
 
-## Number and name of feature: Bootstrap
+## Lab3 Number and name of feature: Bootstrap
+
 
 Estimate of time needed to complete: an hour
 
 Start time: 7:00
 
 Finish time: 7:40
+
+## Lab4 Feature 1. Filter by Numbers of Horns
+
+Estimate of time needed to complete: two hours
+
+Start time: 4:00
+
+Finish time: 6:06
+
 
 
 
