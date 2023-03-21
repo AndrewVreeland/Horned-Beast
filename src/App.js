@@ -46,46 +46,17 @@ class App extends React.Component {
     // WTD 
     // Condition ? if true : if false 
 
-let filteredHorns = data.filter(beast =>{
-  if(selected === 'all'){
-    return beast
-  }else{
-    return beast.horns === +selected;
+    let filteredHorns = data.filter(beast => {
+      if (selected === 'all') {
+        return beast
+      } else {
+        return beast.horns === +selected;
+      }
+    })
+    this.setState({
+      data: filteredHorns
+    })
   }
-})
-this.setState({
-  data: filteredHorns
-})
-
-
-
-  //   if (selected === '1') {
-  //     let newData = data.filter(h => h.horns === 1)
-  //     this.setState({
-  //       data: newData
-  //     })
-  //   } if (selected === '2') {
-  //     let newData = data.filter(h => h.horns === 2)
-  //     this.setState({
-  //       data: newData
-  //     })
-  //   } else if (selected === '3') {
-  //     let newData = data.filter(h => h.horns === 3)
-  //     this.setState({
-  //       data: newData
-  //     })
-  //   } else if (selected === '100') {
-  //     let newData = data.filter(h => h.horns === 100)
-  //     this.setState({
-  //       data: newData
-  //     })
-  //   } else if (selected === 'all') {
-  //     let newData = data.filter(h => h.horns < 101)
-  //     this.setState({
-  //       data: newData
-  //     })
-  //   }
-  // }
   render() {
     return (
       <>
@@ -120,6 +91,7 @@ this.setState({
       </>
     )
   }
+
 }
 
 // EXPORT CLASS THE CLASS FOR OTHER FILES TO IMPORT
