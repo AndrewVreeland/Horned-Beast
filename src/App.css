@@ -25,17 +25,9 @@
   color: white;
 }
 
-#selectContainer{
-  width: min-content;
-  height: min-content;
-}
-#select{
-  min-width: fit-content;
-}
 .App-link {
   color: #61dafb;
 }
-
 
 @keyframes App-logo-spin {
   from {
@@ -44,4 +36,5 @@
   to {
     transform: rotate(360deg);
   }
+
 
